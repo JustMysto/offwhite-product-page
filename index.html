@@ -76,3 +76,15 @@
 <script src="index.js"></script>
 <!--Gsap CDN    -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.5/gsap.min.js"></script>
+
+<script>
+    // GASP animations
+
+    gsap.fromTo('.product-info',
+    {x: '15rem', opacity: 0},
+    {x: 0, opacity: 1, ease: 'back.out(3)', delay:.2});
+
+    gsap.fromTo('.clr-2',
+    {x: '15rem', opacity: 0},
+    {x: 0, opacity: 1, ease: 'back.out(1.5)'});
+</script>

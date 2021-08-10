@@ -11,13 +11,3 @@ $(function () {
         $(this).removeClass('menu-open');
     })
 })
-
-// GASP animations
-
-gsap.fromTo('.product-info',
-{x: '15rem', opacity: 0},
-{x: 0, opacity: 1, ease: 'back.out(3)', delay:.2});
-
-gsap.fromTo('.clr-2',
-{x: '15rem', opacity: 0},
-{x: 0, opacity: 1, ease: 'back.out(1.5)'});
